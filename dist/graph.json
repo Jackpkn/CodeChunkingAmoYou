@@ -1,0 +1,212 @@
+{
+  "nodes": [
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file2.js:outerFunction",
+      "name": "outerFunction",
+      "type": "function",
+      "file": "/home/jackpk/Documents/code_chunking/test/file2.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file2.js:outerVariable",
+      "name": "outerVariable",
+      "type": "variable",
+      "file": "/home/jackpk/Documents/code_chunking/test/file2.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file2.js:innerFunction",
+      "name": "innerFunction",
+      "type": "function",
+      "file": "/home/jackpk/Documents/code_chunking/test/file2.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file2.js:innerVariable",
+      "name": "innerVariable",
+      "type": "variable",
+      "file": "/home/jackpk/Documents/code_chunking/test/file2.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file2.js:Person",
+      "name": "Person",
+      "type": "class",
+      "file": "/home/jackpk/Documents/code_chunking/test/file2.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file2.js:constructor",
+      "name": "constructor",
+      "type": "method",
+      "file": "/home/jackpk/Documents/code_chunking/test/file2.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file2.js:displayDetails",
+      "name": "displayDetails",
+      "type": "method",
+      "file": "/home/jackpk/Documents/code_chunking/test/file2.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file2.js:nestedMethod",
+      "name": "nestedMethod",
+      "type": "method",
+      "file": "/home/jackpk/Documents/code_chunking/test/file2.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file2.js:person1",
+      "name": "person1",
+      "type": "variable",
+      "file": "/home/jackpk/Documents/code_chunking/test/file2.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.js:Person",
+      "name": "Person",
+      "type": "variable",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.js:calculateArea",
+      "name": "calculateArea",
+      "type": "function",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.js:area",
+      "name": "area",
+      "type": "variable",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.js:circleArea",
+      "name": "circleArea",
+      "type": "function",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.js:rectangleArea",
+      "name": "rectangleArea",
+      "type": "function",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.js:person2",
+      "name": "person2",
+      "type": "variable",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.js:Calculator",
+      "name": "Calculator",
+      "type": "class",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.js:constructor",
+      "name": "constructor",
+      "type": "method",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.js:add",
+      "name": "add",
+      "type": "method",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.js:resetResult",
+      "name": "resetResult",
+      "type": "method",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.js:=>",
+      "name": "=>",
+      "type": "function",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.js"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.js:calculator",
+      "name": "calculator",
+      "type": "variable",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.js"
+    }
+  ],
+  "links": [
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file2.js:outerFunction",
+      "target": "/home/jackpk/Documents/code_chunking/test/file2.js:innerFunction"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file2.js:outerFunction",
+      "target": "/home/jackpk/Documents/code_chunking/test/file2.js:outerFunction"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file2.js:innerFunction",
+      "target": "/home/jackpk/Documents/code_chunking/test/file2.js:innerFunction"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file2.js:innerFunction",
+      "target": "/home/jackpk/Documents/code_chunking/test/file2.js:outerFunction"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:calculateArea",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:circleArea"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:calculateArea",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:rectangleArea"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:calculateArea",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:calculateArea"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:calculateArea",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:calculateArea"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:circleArea",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:circleArea"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:circleArea",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:rectangleArea"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:circleArea",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:calculateArea"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:circleArea",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:calculateArea"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:rectangleArea",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:circleArea"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:rectangleArea",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:rectangleArea"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:rectangleArea",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:calculateArea"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:rectangleArea",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:calculateArea"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:=>",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:circleArea"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:=>",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:rectangleArea"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:=>",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:calculateArea"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.js:=>",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.js:calculateArea"
+    }
+  ]
+}

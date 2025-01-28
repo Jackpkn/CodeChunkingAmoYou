@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file2.ts:anotherFunction",
+      "name": "anotherFunction",
+      "type": "function",
+      "file": "/home/jackpk/Documents/code_chunking/test/file2.ts"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.ts:MyClassTs",
+      "name": "MyClassTs",
+      "type": "class",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.ts"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.ts:constructor",
+      "name": "constructor",
+      "type": "method",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.ts"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.ts:myMethod",
+      "name": "myMethod",
+      "type": "method",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.ts"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.ts:helperFunctionTs",
+      "name": "helperFunctionTs",
+      "type": "function",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.ts"
+    },
+    {
+      "id": "/home/jackpk/Documents/code_chunking/test/file3.ts:instance",
+      "name": "instance",
+      "type": "variable",
+      "file": "/home/jackpk/Documents/code_chunking/test/file3.ts"
+    }
+  ],
+  "links": [
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file2.ts:anotherFunction",
+      "target": "/home/jackpk/Documents/code_chunking/test/file2.ts:anotherFunction"
+    },
+    {
+      "source": "/home/jackpk/Documents/code_chunking/test/file3.ts:helperFunctionTs",
+      "target": "/home/jackpk/Documents/code_chunking/test/file3.ts:helperFunctionTs"
+    }
+  ]
+}
